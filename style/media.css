@@ -1,0 +1,23 @@
+@media (width <= 810px){
+  .main{
+    grid-template-columns: 1fr;
+    row-gap: 21px;
+  }
+  h1{
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+.header-description{
+  font-size: 15px;
+}
+
+  .main-left-child1, .main-right-child1{
+    flex: 1;
+  }
+
+  .card{
+    padding-inline: 25px;
+    font-size: 13px;
+  }
+
+}
